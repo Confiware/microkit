@@ -88,7 +88,7 @@ SUPPORTED_BOARDS = (
         name="tqma8xqp1gb",
         arch=KernelArch.AARCH64,
         gcc_cpu="cortex-a35",
-        loader_link_address=0x80280000,
+        loader_link_address=0xa0000000,
         kernel_options={
             "KernelPlatform": "tqma8xqp1gb",
             "KernelIsMCS": True,
